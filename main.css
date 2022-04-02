@@ -1,0 +1,371 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  background: #001821;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-ozx-font-smoothing: grayscale;  
+}
+a {
+  color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  margin-top: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.main-page-wrapper {
+  background: url("/img/1.png") center top no-repeat, url("/img/2.png") center bottom 165px no-repeat;
+}
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+.header{
+  height: 120px;
+  position: relative;
+  margin-bottom: 69px;
+
+}
+.logo {
+  display: block;
+  position: absolute;
+  top: 23px;
+  left: 0px;
+}
+.menu {
+  position: absolute;
+  top: 33px;
+  left: 165px;
+}
+.contacts {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  font-style: normal;
+  text-align: right;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.menu__item:last-child{
+  margin-right: 0;
+}
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: #dfb56d;
+}
+
+.contacts__tel {
+  text-decoration: none;
+  font-size: 26px;
+
+}
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  margin: -7px;
+  margin-right: 4px;
+}
+.contacts__text {
+  font-size: 11px;
+  line-height: 20px;
+  color: #9A9A9A;
+}
+
+
+.promo__container {
+  width: 520px;
+  margin-bottom: 10px;
+  
+}
+.promo__title{
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 22px;
+}
+.promo__desc {
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding-left: 1px;
+ 
+  
+}
+.buttom {
+  background: #F5170E;
+  border-radius: 29px;
+  padding: 18px 41px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase; /* верхний регистр*/
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.buttom--wite {
+  background: #fff;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+.buttom--hover:hover {
+  background: #d3a556;
+  box-shadow: 0 0 25px 0  rgba(223, 181, 109, .15);
+}
+.hot-turs {
+  margin-bottom: 121px;
+  margin-top: 249px;
+  height: 550px;
+}
+.hot-turs__title__fire {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 54px;
+  line-height: 42px;
+  padding-left: 4px;
+}
+
+.hot-turs__list {
+  display: inline-block;
+  height: 449px;
+  background: #fff;
+  border-radius: 6px;
+  margin-right: 23px;
+  width: 362px;
+
+}
+
+.hot-turs__list:last-child {
+  margin-right: 0px;
+}
+.hot-turs__photo {
+  margin-bottom: 14px;
+}
+.hot-turs__desc {
+  padding: 13px 22px ;
+  color: #000000;
+}
+.hot-turs__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #666666;
+}
+.calendar {
+  margin-left: 6px;
+}
+.features {
+  margin-bottom: 17px;
+}
+.features__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 138px;
+  margin-right: 18px;
+  position: relative;
+}
+.features__item:last-child {
+  margin-right: 0;
+}
+.features__text {
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+  position: absolute;
+  left: 30%;
+  top: 14%;
+}
+.features__text--meal{
+  margin-left: 3%;
+}
+.hot-turs__text {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #303030;
+  margin-bottom: 24px;
+}
+.btn-wrapper {
+  margin-left: 3px;
+}
+.buttom--size {
+  padding: 16px 29px;
+  
+}
+.section__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.news {
+  margin-bottom: 52px;
+}
+.news__item {
+  width: 557px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.news__item:last-child {
+  margin-right: 0;
+}
+.news__cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news__text-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 227px;
+  padding: 25px 30px 0px;
+ 
+  min-height: 140px;
+} 
+.news__date {
+  display: block;
+  margin-bottom: 14px; 
+  font-size: 14px;
+}
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  margin-bottom: 4px;
+}
+
+.navigator {
+  text-align: center;
+  margin-bottom: 146px;
+}
+.navigator__display,.navigator__list {
+  vertical-align: middle;
+  display: inline-block;
+}
+.navigator__display {
+  margin-right: 26px;
+}
+.navigator__item {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.navigator__link {
+ display: block; 
+ position: relative;
+ width: 32px;
+height: 32px;
+border-radius: 50%;
+text-decoration: none;
+font-weight: bold;
+line-height: 32px;
+}
+/* .navigator__item--active .navigator__link {
+  background: #fff;
+  color: #F5170E;
+} */
+.navigator__link:hover {
+  background: #fff;
+  color: #F5170E;
+}
+.about {
+  margin-bottom: 55px;
+}
+.about:before, .about__desc {
+  display: inline-block;
+  vertical-align: top;
+} 
+
+.about::before {
+  content: "";
+  width: 490px;
+  height: 505px;  
+  background: url("/img/gates.png") center center / cover no-repeat;
+}
+.about__desc {
+  background-image: url("/img/mountains.png");
+  width: 785px;
+  height: 455px;
+  padding: 68px 81px;
+  margin-top: 97px;
+  margin-left: -140px;
+  border-radius: 5px;
+}
+.about__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 39px;
+}
+.about__desc-text {
+  color: #000000;
+  width: 505px;
+  height: 135px;
+  margin-bottom: 41px;
+  line-height: 27px;
+}
+.about__desc-text p:last-child {
+  margin-bottom: 0;
+} 
+.footer-container__content {
+  border-top: 1px solid #fff;
+}
+.footer {
+  height: 136px;
+  position: relative;
+ margin-top: 24px;
+}
+.social {
+  top: 26px;
+  right: 265px;
+  position: absolute;
+}
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  margin-left: 6px;
+}
+.social__link {
+  display: block; 
+  background: center center no-repeat;
+}
+.social__item:first-child {
+  margin-left: 0;
+}
+.social__item--icon--telegram  {
+  background-image: url("/img/social/telegram.png");
+}
+.social__item--icon--vk {
+  background-image: url("/img/social/vk.png");
+}
+.social__item--icon--fb  {
+  background-image: url("/img/social/f.png");
+}
+.social__item--icon--in {
+  background-image: url("/img/social/in.png");
+}
