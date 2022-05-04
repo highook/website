@@ -1,0 +1,20 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 600px;
+}
+.header {
+  padding-top: 50px;
+  margin-bottom: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--aling--right {
+  justify-content: flex-end;
+}

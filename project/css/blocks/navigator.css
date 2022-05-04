@@ -1,0 +1,35 @@
+.navigator {
+  display: flex;
+  justify-content: center;
+   margin-bottom: 146px;
+   align-items: center;
+ }
+ .navigator__display {
+   margin-right: 30px;
+ }
+ .navigator__list {
+   display: flex;
+   align-items: center;
+ }
+ .navigator__item {
+   text-align: center;
+ }
+ .navigator__link {
+  display: block; 
+  position: relative;
+  width: 32px;
+ height: 32px;
+ border-radius: 50%;
+ text-decoration: none;
+ font-weight: bold;
+ line-height: 32px;
+ }
+ .navigator__item--active {
+   background: #fff;
+   color: #F5170E;
+   border-radius: 50%;
+ }
+ .navigator__link:hover {
+   background: #fff;
+   color: #F5170E;
+ }
